@@ -1,0 +1,207 @@
+.backfoto {
+	background-image: url("../img/header.jpg");
+	background-size: 100% 100%;
+}
+
+ul { 
+	 padding-left: 70%;
+	 padding-top: 20px;
+	 list-style: none;
+	 text-decoration: none;
+	  }
+
+.menu ul li {
+	display: inline;
+	margin-left: 10px; 
+}
+
+.sub:hover a {
+	color: #FA8072;
+}
+
+.backrosa {
+	background-color: #FA8072;
+	height: 200px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.foto {
+	background-repeat: no-repeat;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+}
+
+.foto .backrosa {
+	opacity: 0;
+	color: white;
+	text-align: center;
+	padding-top: 90px;
+}
+
+.backrosa:hover {
+	opacity: 0.6;
+
+}
+
+.backgris {
+	background-color: #383B3E;
+	height: 180px;  
+}
+
+.barra {
+	border: 2px solid;
+	width: 50px;
+}
+
+
+#botonrosa {
+	width: 130px;
+	height: 30px;
+	border-radius: 10px;
+	font-size: 12px;
+	border-style: none;
+	padding: 7px;
+	background-color: #FA8072;
+	margin-bottom: 10%;
+	margin-top: 20px;
+}
+
+#botonblanco {
+	width: 130px;
+	height: 30px;
+	border-radius: 15px;
+	font-size: 12px;
+	border-style: none;
+	padding: 7px;
+	background-color: white;
+	margin-bottom: 10%;
+	margin-top: 20px;
+	color: black;
+}
+
+
+
+#back1 {
+	background-image: url("../img/1.jpg");
+}
+
+#back2 {
+	background-image: url("../img/2.jpg");
+}
+
+#back3 {
+	background-image: url("../img/3.jpg");
+}
+
+#back4 {
+	background-image: url("../img/4.jpg");
+}
+
+#back5 {
+	background-image: url("../img/5.jpg");
+}
+
+#back6 {
+	background-image: url("../img/6.jpg");
+}
+
+
+/*EXTRAS*/
+
+.backrosa {
+	background-color: #FA8072;
+}
+
+.rosa {
+	color: #FA8072;
+}
+
+.blanco {
+	color: white;
+}
+
+.te-center {
+	text-align: center;
+}
+
+.top-200 {
+	margin-top: 200px;
+}
+
+.top-50 {
+	margin-top: 50px;
+}
+.bt-70 {
+	margin-bottom: 70px;
+}
+
+.bt-30 {
+	margin-bottom: 30px;
+}
+
+.bt-10 {
+	margin-bottom: 10px;
+}
+
+.top-10 {
+	margin-top: 10px;
+}
+
+.padtop10 {
+	padding-top: 10px;
+}
+
+.padbt80 {
+	padding-bottom: 80px;
+}
+
+.topmenos10 {
+	margin-top: -20px;
+}
+
+.padright20 {
+	margin-right: 20px;
+}
+
+.left20 {
+	margin-left: -50px;
+}
+
+.pad2 {
+	padding: 2%;
+}
+
+.pad5 {
+	padding: 5%;
+}
+
+
+.fuente12 {
+	font-size: 12px;
+}
+
+.fuente10 {
+	font-size: 10px;
+}
+
+.fuente16 {
+	font-size: 16px;
+}
+	
+	/* MEDIA */ 
+
+@media (min-width: 768px) {
+	
+	.backfoto {
+		width: 100%;
+		background-repeat: no-repeat;
+	}
+
+
+
+
+}
